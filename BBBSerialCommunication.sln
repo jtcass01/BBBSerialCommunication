@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BBBSerialCommunication", "BBBSerialCommunication\BBBSerialCommunication.vcxproj", "{9BC1B8FA-C95E-4DD2-BD68-34E9AE7B645E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|VisualGDB = Debug|VisualGDB
+		Release|VisualGDB = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BC1B8FA-C95E-4DD2-BD68-34E9AE7B645E}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{9BC1B8FA-C95E-4DD2-BD68-34E9AE7B645E}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{9BC1B8FA-C95E-4DD2-BD68-34E9AE7B645E}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{9BC1B8FA-C95E-4DD2-BD68-34E9AE7B645E}.Release|VisualGDB.Build.0 = Release|VisualGDB
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
