@@ -44,6 +44,7 @@
     <ClCompile Include="BBBSerialCommunication.cpp" />
     <ClCompile Include="GPIOConst.cpp" />
     <ClCompile Include="GPIOManager.cpp" />
+    <ClCompile Include="Serial.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="BBBSerialCommunication-Debug.vgdbsettings" />
@@ -52,6 +53,7 @@
   <ItemGroup>
     <ClInclude Include="GPIOConst.h" />
     <ClInclude Include="GPIOManager.h" />
+    <ClInclude Include="Serial.h" />
     <ClInclude Include="uart.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

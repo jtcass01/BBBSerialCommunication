@@ -23,6 +23,9 @@
     <Filter Include="Source files\UART">
       <UniqueIdentifier>{e5f7fa8c-1df7-4875-8254-aba4e2da0ade}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source files\Serial">
+      <UniqueIdentifier>{d7718275-290a-4c54-99ed-f9e248238fa2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BBBSerialCommunication.cpp">
@@ -33,6 +36,9 @@
     </ClCompile>
     <ClCompile Include="GPIOManager.cpp">
       <Filter>Source files\GPIO</Filter>
+    </ClCompile>
+    <ClCompile Include="Serial.cpp">
+      <Filter>Source files\Serial</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -52,6 +58,9 @@
     </ClInclude>
     <ClInclude Include="uart.h">
       <Filter>Source files\UART</Filter>
+    </ClInclude>
+    <ClInclude Include="Serial.h">
+      <Filter>Source files\Serial</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
