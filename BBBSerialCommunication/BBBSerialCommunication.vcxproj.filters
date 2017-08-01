@@ -17,10 +17,22 @@
       <UniqueIdentifier>{4778075d-3c6a-4dd9-979b-d9a7dba6d42b}</UniqueIdentifier>
       <Extensions>*.vgdbsettings</Extensions>
     </Filter>
+    <Filter Include="Source files\GPIO">
+      <UniqueIdentifier>{eeb8b897-c7b6-43fb-a3cb-99f32f5be65e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\UART">
+      <UniqueIdentifier>{e5f7fa8c-1df7-4875-8254-aba4e2da0ade}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BBBSerialCommunication.cpp">
       <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="GPIOConst.cpp">
+      <Filter>Source files\GPIO</Filter>
+    </ClCompile>
+    <ClCompile Include="GPIOManager.cpp">
+      <Filter>Source files\GPIO</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -30,5 +42,16 @@
     <None Include="BBBSerialCommunication-Release.vgdbsettings">
       <Filter>VisualGDB settings</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GPIOConst.h">
+      <Filter>Source files\GPIO</Filter>
+    </ClInclude>
+    <ClInclude Include="GPIOManager.h">
+      <Filter>Source files\GPIO</Filter>
+    </ClInclude>
+    <ClInclude Include="uart.h">
+      <Filter>Source files\UART</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

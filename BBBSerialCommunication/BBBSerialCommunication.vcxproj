@@ -42,10 +42,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BBBSerialCommunication.cpp" />
+    <ClCompile Include="GPIOConst.cpp" />
+    <ClCompile Include="GPIOManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="BBBSerialCommunication-Debug.vgdbsettings" />
     <None Include="BBBSerialCommunication-Release.vgdbsettings" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GPIOConst.h" />
+    <ClInclude Include="GPIOManager.h" />
+    <ClInclude Include="uart.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
